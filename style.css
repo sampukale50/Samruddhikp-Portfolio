@@ -1,0 +1,166 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f7fa;
+}
+
+.hero{
+    text-align:center;
+    padding:90px 20px;
+}
+
+h1{
+    color: #2563eb;
+    font-size: 48px;
+}
+
+.tagline{
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.about{
+    max-width: 700px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    background:#2563eb;
+    color:white;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+.skills{
+    padding: 50px;
+    text-align: center;
+}
+
+.skills h2{
+    color: #2563eb;
+}
+
+.skill-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card{
+    background: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.projects{
+    padding: 50px;
+    text-align: center;
+}
+
+.projects h2{
+    color: #2563eb;
+}
+
+.project-card{
+    background: white;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.contact{
+    text-align:center;
+    padding:60px;
+}
+
+.contact h2{
+    color:#2563eb;
+}
+
+.contact a{
+    text-decoration:none;
+    margin:10px;
+    padding:10px 20px;
+    background:white;
+    border-radius:8px;
+    display:inline-block;
+}
+.project-card a{
+    display:inline-block;
+    margin:10px;
+    padding:8px 15px;
+    text-decoration:none;
+    border-radius:5px;
+    background:#2563eb;
+    color:white;
+}
+.about-me{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.about-me h2{
+    color:#2563eb;
+}
+
+.about-me p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+}
+.experience{
+    padding:50px;
+    text-align:center;
+}
+
+.experience h2{
+    color:#2563eb;
+}
+.card:hover,
+.project-card:hover{
+    transform: translateY(-5px);
+    transition:0.3s;
+}
+
+Aur card mein:
+
+.card{
+    background:white;
+    padding:15px 25px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+.project-card{
+    background:white;
+    max-width:700px;
+    margin:20px auto;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+.resume-line{
+    color:#666;
+    font-size:18px;
+    margin-bottom:20px;
+}
+html{
+    scroll-behavior:smooth;
+}
+footer{
+    text-align:center;
+    padding:20px;
+    background:#2563eb;
+    color:white;
+}
